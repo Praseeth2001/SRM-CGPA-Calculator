@@ -78,11 +78,11 @@ def calculate():
 
 if __name__ == '__main__':
     root = Tk()
-    root.geometry('500x700')
+    root.geometry('550x700')
     root.title('SRM SGPA Calculator')
     root.resizable(False, False)
 
-    srm_GPA_CALCULATOR = Label(root, text = "SRM GPA CALCULATOR", font = ('Sans Serif', 18, 'bold'))
+    srm_GPA_CALCULATOR = Label(root, text = "SRM SGPA CALCULATOR", font = ('Sans Serif', 18, 'bold'))
     srm_GPA_CALCULATOR.place(x=150, y=50)
 
     sub = Label(root, text = 'Subjects', font = ('Sans Serif', 14))
