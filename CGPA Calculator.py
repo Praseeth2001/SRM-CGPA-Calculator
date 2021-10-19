@@ -78,7 +78,7 @@ def calculate():
 
 if __name__ == '__main__':
     root = Tk()
-    root.geometry('550x700')
+    root.geometry('600x700')
     root.title('SRM SGPA Calculator')
     root.resizable(False, False)
 
